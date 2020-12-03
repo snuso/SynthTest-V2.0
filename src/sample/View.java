@@ -55,7 +55,7 @@ public class View {
     }
 
     ////TEST////
-    /*
+
     ButtonModel exitModel = exitButton();
 
     ButtonView exitView = new ButtonView();
@@ -70,7 +70,7 @@ public class View {
         buttonModel.setWidth(100);
         buttonModel.setHeight(40);
 
-    }*/
+    }
     ////TEST///
 
     private void createAndConfigure(){
@@ -111,6 +111,8 @@ public class View {
         StartView.add(grainTextArea, 0, 8);
         StartView.add(grainBtn, 0, 10);
         System.out.println(pitchLbl.getText());
+
+        StartView.add(exitbtn, 1, 1);
 
     }
 

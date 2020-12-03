@@ -41,14 +41,14 @@ public class SoundPlayer {
 
         ac.start();
         // while-loop to configure modifiers live
-        while(true){
+       /* while(true){
             System.out.println("hej");
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        }
+        }*/
 
     }
 }

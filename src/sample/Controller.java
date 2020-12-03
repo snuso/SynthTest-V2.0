@@ -26,8 +26,6 @@ public class Controller {
         view.grainBtn.setOnAction(e-> view.grainLbl.setText(view.grainTextArea.getText()));
         //view.grainBtn.setOnAction(e-> ));
 
-        SoundPlayer soundPlayer = new SoundPlayer();
-
     }
 
 

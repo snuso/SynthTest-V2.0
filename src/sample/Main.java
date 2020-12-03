@@ -21,9 +21,7 @@ public class Main extends Application {
     static GranularModel Grandad = new GranularModel();
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-
-
+    public void start(Stage primaryStage) {
 
         sample.Controller GSPController = new sample.Controller(Grandad);
         sample.View view = new sample.View(Grandad, GSPController);
@@ -39,5 +37,6 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
 
 }
